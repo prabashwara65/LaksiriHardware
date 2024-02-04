@@ -1,0 +1,107 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+} */
+
+.body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(backgroundLogin.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper{
+  width: 420px;
+  background: transparent;
+  color: #ffffff;
+  border-radius: 15px;
+  padding: 30px 40px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+}
+
+.wrapper h1{
+  font-size: 36px;
+  text-align: center;
+}
+
+ .inputBox{
+  width: 100%;
+  height: 50px;
+  /* background: yellow; */
+  margin: 30px 0;
+  position: relative;
+}
+
+.inputBox input{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 20px 45px 20px 20px;
+}
+
+.inputBox input::placeholder{
+  color: #fff;
+}
+
+.inputBox i{
+  position: absolute;
+  right: 18px;
+  top: 15px;
+  transform: translate(-50%);
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.btn{
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+
+.btn a {
+  color: #070707;
+  text-decoration: none;
+}
+
+.buttonContainer{
+  display: flex;
+
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.registerLink{
+  font-size: 14.5;
+  margin: 20px 0 15px;
+  text-align: center;
+}
+
+.registerLink p a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.registerLink p a :hover{
+  text-decoration: underline;
+}
+
